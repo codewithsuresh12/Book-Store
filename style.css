@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(199, 16, 172);
+    color: white;
+}
+
+nav {
+    background-color: rgb(95, 6, 95);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+}
+
+div ul {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    list-style: none;
+}
+
+div ul li a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
